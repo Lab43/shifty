@@ -1,12 +1,5 @@
 @import "compass";
 
-/*
-
-bugs:
-- If $startFluid is false, at4-hide gets immediately overrided by at4-show. In otherwords, there is no reason to ever hide the first breakpoint if $startFluid isn't true.
-- If there is a breakpoint at 1 column, it won't use the correct stripe color. It will use the normal stripe color, not the breakpoint color. (why would anyone have a breakpoint at 1?)
-
-*/
 
 
 
