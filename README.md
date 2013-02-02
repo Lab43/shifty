@@ -1,11 +1,12 @@
-shifty
-======
-
 Shift Grid System
+=================
+
+A responsive grid system that works by adding/removing columns, rather than by making columns narrower.
+
 
 ## To Do:
 
-* For stripes, it would be nice to not have to include a .stripes class. In Kickcorps (and probably other real-world project) it's easiest to turn stripes on and off by just changing the sass variable, and not have to also add/remove a class in the html. However, there should still be the option to require a class. This is useful if you want to toggle stripes off and on with javascript. Hmmm... maybe the stripes show unless you add a class to remove them. Is this the best of both worlds?
+* For stripes, it would be nice to not have to include a .stripes class. In Kickcorps (and probably other real-world projects) it's easiest to turn stripes on and off by just changing the sass variable, and not have to also add/remove a class in the html. However, there should still be the option to require a class. This is useful if you want to toggle stripes off and on with javascript. Hmmm... maybe the stripes show unless you add a class to remove them. Is this the best of both worlds?
 
 
 ## Bugs:
