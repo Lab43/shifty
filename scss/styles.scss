@@ -1,0 +1,14 @@
+@import "compass";
+
+@import "_normalize";
+
+$stripes: true;
+$layoutMode: 'inline-block';
+
+@import "shifty";
+
+[class*="span"],
+[class*="group"] > * {
+  background: red;
+  margin-bottom: 10px;
+}
