@@ -15,7 +15,7 @@ A responsive grid system that works by adding/removing columns, rather than by m
 * If there is a breakpoint at 1 column, it won't use the correct stripe color. It will use the normal stripe color, not the breakpoint color. (why would anyone have a breakpoint at 1?)
 
 
-## Documentation Nodes:
+## Documentation Notes:
 
 The documentation still needs to be written. Here are some notes to help me remember what everything does.
 
