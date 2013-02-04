@@ -23,11 +23,6 @@
   margin-left: 30px;
 }
 
-/* line 159, ../../scss/shifty.scss */
-.break {
-  clear: left;
-}
-
 /* line 165, ../../scss/shifty.scss */
 .at4-show, .at6-show, .at8-show, .at12-show {
   display: none;
@@ -41,7 +36,7 @@
 
   /* line 64, ../../scss/shifty.scss */
   .span1, .at4-span1, .span2, .at4-span2, .span3, .at4-span3 {
-    float: left;
+    display: inline-block;
   }
 
   /* line 82, ../../scss/shifty.scss */
@@ -79,16 +74,6 @@
     margin-left: 330px;
   }
 
-  /* line 105, ../../scss/shifty.scss */
-  .at4-break {
-    clear: left;
-  }
-
-  /* line 110, ../../scss/shifty.scss */
-  .at4-unbreak {
-    clear: none;
-  }
-
   /* line 116, ../../scss/shifty.scss */
   .at4-show {
     display: block;
@@ -107,7 +92,7 @@
 
   /* line 64, ../../scss/shifty.scss */
   .at6-span1, .at6-span2, .at6-span3, .span4, .at6-span4, .span5, .at6-span5 {
-    float: left;
+    display: inline-block;
   }
 
   /* line 74, ../../scss/shifty.scss */
@@ -165,16 +150,6 @@
     margin-left: 530px;
   }
 
-  /* line 105, ../../scss/shifty.scss */
-  .at6-break {
-    clear: left;
-  }
-
-  /* line 110, ../../scss/shifty.scss */
-  .at6-unbreak {
-    clear: none;
-  }
-
   /* line 116, ../../scss/shifty.scss */
   .at6-show {
     display: block;
@@ -193,7 +168,7 @@
 
   /* line 64, ../../scss/shifty.scss */
   .at8-span1, .at8-span2, .at8-span3, .at8-span4, .at8-span5, .span6, .at8-span6, .span7, .at8-span7 {
-    float: left;
+    display: inline-block;
   }
 
   /* line 74, ../../scss/shifty.scss */
@@ -271,16 +246,6 @@
     margin-left: 730px;
   }
 
-  /* line 105, ../../scss/shifty.scss */
-  .at8-break {
-    clear: left;
-  }
-
-  /* line 110, ../../scss/shifty.scss */
-  .at8-unbreak {
-    clear: none;
-  }
-
   /* line 116, ../../scss/shifty.scss */
   .at8-show {
     display: block;
@@ -299,7 +264,7 @@
 
   /* line 64, ../../scss/shifty.scss */
   .at12-span1, .at12-span2, .at12-span3, .at12-span4, .at12-span5, .at12-span6, .at12-span7, .span8, .at12-span8, .span9, .at12-span9, .span10, .at12-span10, .span11, .at12-span11 {
-    float: left;
+    display: inline-block;
   }
 
   /* line 74, ../../scss/shifty.scss */
@@ -415,16 +380,6 @@
   /* line 97, ../../scss/shifty.scss */
   .offset11, .at12-offset11 {
     margin-left: 1130px;
-  }
-
-  /* line 105, ../../scss/shifty.scss */
-  .at12-break {
-    clear: left;
-  }
-
-  /* line 110, ../../scss/shifty.scss */
-  .at12-unbreak {
-    clear: none;
   }
 
   /* line 116, ../../scss/shifty.scss */

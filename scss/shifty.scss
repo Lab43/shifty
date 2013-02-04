@@ -12,6 +12,9 @@ $columnWidth: 70px !default;
 $gutterWidth: 30px !default;
 $outsideGutterWidth: 18px !default;
 
+// layout mode: float or inline-block
+$layoutMode: 'float' !default;
+
 // breakpoints
 $startFluid: true !default;
 $breakpoints: 4, 6, 8, 12 !default;
@@ -56,16 +59,21 @@ $breakpointStripeColor: #aaa !default;
     width: $columnWidth * ($end) + $gutterWidth * ($end - 1 );
   }
 
-  // float cells
-  %float-#{$start} {
-    float: left;
+  // use float:left or display:inline-block depending on layout mode
+  // we add $start to the end of the placeholder selector to prevent selectors from different breakpoints (i.e. media queries) from getting grouped together
+  %layout-#{$start} {
+    @if $layoutMode == 'float' {
+      float: left;
+    } @else if $layoutMode == 'inline-block' {
+      display: inline-block;
+    }
   }
 
   // .at* cell sizing
   @for $i from 1 through $start - 1 {
     .at#{$end}-span#{$i} {
       @include _cellWidth($i);
-      @extend %float-#{$start};
+      @extend %layout-#{$start};
     }
   }
 
@@ -73,7 +81,7 @@ $breakpointStripeColor: #aaa !default;
   @for $i from $start through $end - 1 {
     .span#{$i}, .at#{$end}-span#{$i} {
       @include _cellWidth($i);
-      @extend %float-#{$start};
+      @extend %layout-#{$start};
     }
   }
 
@@ -91,14 +99,17 @@ $breakpointStripeColor: #aaa !default;
     }
   }
 
-  // break
-  .at#{$end}-break {
-    clear: left;
-  }
+  // only output .at*-break and .at*-unbreak if layout mode is float
+  @if $layoutMode == 'float' {
+    // break
+    .at#{$end}-break {
+      clear: left;
+    }
 
-  // unbreak
-  .at#{$end}-unbreak {
-    clear: none;
+    // unbreak
+    .at#{$end}-unbreak {
+      clear: none;
+    }
   }
 
   // show
@@ -143,8 +154,11 @@ $firstBreakpoint: nth($breakpoints, 1);
   margin-left: $gutterWidth;
 }
 
-.break {
-  clear: left;
+// only output .break if layout mode is float
+@if $layoutMode == 'float' {
+  .break {
+    clear: left;
+  }
 }
 
 // hide .at*-show until breakpoint is reached

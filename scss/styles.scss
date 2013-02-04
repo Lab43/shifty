@@ -3,5 +3,11 @@
 @import "_normalize";
 
 $stripes: true;
+//$layoutMode: 'inline-block';
 
-@import "../shifty";
+@import "shifty";
+
+[class*="span"] {
+  background: red;
+  margin-bottom: 10px;
+}
