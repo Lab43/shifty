@@ -17,9 +17,46 @@ A responsive grid system that works by adding/removing columns, rather than by m
 
 ## Documentation Notes:
 
+<<<<<<< HEAD
+The documentation still needs to be written. Here are some notes to help me remember what needs to be covered.
+
+* using with sass vs using precompiled examples
+* variables
+* wrapper classes (.conainer, .grid)
+* .span*
+* .offset*
+* how breakpoints work
+  * $startFluid
+  * .at*-span*, at*-span*
+  * at() breakpoint mixin
+    * using in conjunction with at() mixin
+    * be careful about css bloat
+  * if you set a span wider than the current document, it will be treated as full width until a wider breakpoint is reached. This is very helpful.
+* layout modes
+  * fluid
+    * .break, .unbreak
+    * .at*-break, .at*-unbreak
+  * inline-block
+    * Avoiding gaps between inline-block element: [Fighting the Space Between Inline Block Elements](http://css-tricks.com/fighting-the-space-between-inline-block-elements/)
+* stripes
+* nesting
+  * nesting works, but it doesn't prevent you from having spans or offsets that are too wide.
+  * breakpoints are only aware of the document width, not the width of spans.
+* advice for css
+  * avoid class names with 'span' in them
+  * width must be preserved, so use box-sizing: border-box to prevent padding and borders from making spans wider
+
+
+## Features to add
+
+* span groups
+  * example: span3-group would make all of it's direct children span3.
+  * In other words, .span3-group > * is equivalent to .span3
+=======
 The documentation still needs to be written. Here are some notes to help me remember what everything does.
 
 * Avoiding gaps between inline-block element: [Fighting the Space Between Inline Block Elements](http://css-tricks.com/fighting-the-space-between-inline-block-elements/)
+>>>>>>> 170d2c9fb2e5dafa232c4f669926a42c127ce194
 
 
 ## Acknowledgements:
