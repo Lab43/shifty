@@ -6,7 +6,7 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 63, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 63, ../scss/_normalize.scss */
 article,
 aside,
 details,
@@ -25,7 +25,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 73, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 73, ../scss/_normalize.scss */
 audio,
 canvas,
 video {
@@ -38,7 +38,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 86, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 86, ../scss/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -48,7 +48,7 @@ audio:not([controls]) {
  * Address styling not present in IE 7/8/9.
  * Known issue: no IE 6 support.
  */
-/* line 96, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 96, ../scss/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -63,7 +63,7 @@ audio:not([controls]) {
  * 3. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
  *    `em` units.
  */
-/* line 112, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 112, ../scss/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -81,7 +81,7 @@ html {
  * Address `font-family` inconsistency between `textarea` and other form
  * elements in IE 6/7.
  */
-/* line 130, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 130, ../scss/_normalize.scss */
 button,
 input,
 select,
@@ -92,7 +92,7 @@ textarea {
 /**
  * Remove default margin.
  */
-/* line 139, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 139, ../scss/_normalize.scss */
 body {
   margin: 0;
 }
@@ -103,7 +103,7 @@ body {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-/* line 151, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 151, ../scss/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -111,7 +111,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 160, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 160, ../scss/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -123,13 +123,13 @@ a:hover {
 /**
  * Set 1 unit of vertical rhythm on the top and bottom margin.
  */
-/* line 173, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 173, ../scss/_normalize.scss */
 p,
 pre {
   margin: 1.5em 0;
 }
 
-/* line 177, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 177, ../scss/_normalize.scss */
 blockquote {
   /* Set 1 unit of vertical rhythm on the top and bottom margin. */
   margin: 1.5em 40px;
@@ -139,7 +139,7 @@ blockquote {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 187, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 187, ../scss/_normalize.scss */
 h1 {
   /* Set the font-size and line-height while keeping a proper vertical rhythm. */
   font-size: 2em;
@@ -149,7 +149,7 @@ h1 {
   margin-bottom: 0.75em;
 }
 
-/* line 196, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 196, ../scss/_normalize.scss */
 h2 {
   font-size: 1.5em;
   line-height: 2em;
@@ -157,7 +157,7 @@ h2 {
   margin-bottom: 1em;
 }
 
-/* line 202, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 202, ../scss/_normalize.scss */
 h3 {
   font-size: 1.17em;
   line-height: 1.28205em;
@@ -165,7 +165,7 @@ h3 {
   margin-bottom: 1.28205em;
 }
 
-/* line 208, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 208, ../scss/_normalize.scss */
 h4 {
   font-size: 1em;
   line-height: 1.5em;
@@ -173,7 +173,7 @@ h4 {
   margin-bottom: 1.5em;
 }
 
-/* line 214, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 214, ../scss/_normalize.scss */
 h5 {
   font-size: 0.83em;
   line-height: 1.80723em;
@@ -181,7 +181,7 @@ h5 {
   margin-bottom: 1.80723em;
 }
 
-/* line 220, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 220, ../scss/_normalize.scss */
 h6 {
   font-size: 0.67em;
   line-height: 2.23881em;
@@ -192,7 +192,7 @@ h6 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 230, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 230, ../scss/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -200,7 +200,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 239, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 239, ../scss/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -209,7 +209,7 @@ strong {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-/* line 247, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 247, ../scss/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -218,7 +218,7 @@ dfn {
  * Address differences between Firefox and other browsers.
  * Known issue: no IE 6/7 normalization.
  */
-/* line 256, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 256, ../scss/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -228,7 +228,7 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 266, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 266, ../scss/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -237,7 +237,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 278, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 278, ../scss/_normalize.scss */
 code,
 kbd,
 pre,
@@ -251,7 +251,7 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-/* line 290, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 290, ../scss/_normalize.scss */
 pre {
   white-space: pre-wrap;
 }
@@ -259,7 +259,7 @@ pre {
 /**
  * Set consistent quote types.
  */
-/* line 298, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 298, ../scss/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -267,7 +267,7 @@ q {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 306, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 306, ../scss/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -275,7 +275,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 315, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 315, ../scss/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -284,12 +284,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 322, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 322, ../scss/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 326, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 326, ../scss/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -300,7 +300,7 @@ sub {
 /**
  * Set 1 unit of vertical rhythm and a consistent indentation.
  */
-/* line 341, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 341, ../scss/_normalize.scss */
 dl,
 menu,
 ol,
@@ -309,12 +309,12 @@ ul {
   padding: 0 0 0 40px;
 }
 
-/* line 346, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 346, ../scss/_normalize.scss */
 dl {
   padding: 0;
 }
 
-/* line 350, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 350, ../scss/_normalize.scss */
 dd {
   margin: 0 0 0 40px;
 }
@@ -322,7 +322,7 @@ dd {
 /**
  * Correct list images handled incorrectly in IE 7.
  */
-/* line 360, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 360, ../scss/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -335,7 +335,7 @@ nav ol {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-/* line 374, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 374, ../scss/_normalize.scss */
 img {
   border: 0;
   /* Improve image quality when scaled in IE 7. */
@@ -345,7 +345,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-/* line 386, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 386, ../scss/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -356,7 +356,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-/* line 398, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 398, ../scss/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -367,7 +367,7 @@ figure {
 /**
  * Correct margin displayed oddly in IE 6/7.
  */
-/* line 411, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 411, ../scss/_normalize.scss */
 form {
   margin: 0;
 }
@@ -375,7 +375,7 @@ form {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 420, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 420, ../scss/_normalize.scss */
 fieldset {
   border-color: #c0c0c0;
   margin: 0 2px;
@@ -399,7 +399,7 @@ fieldset {
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  * 3. Correct alignment displayed oddly in IE 6/7.
  */
-/* line 436, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 436, ../scss/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -415,7 +415,7 @@ legend {
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  * 4. Improve appearance and consistency with IE 6/7.
  */
-/* line 454, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 454, ../scss/_normalize.scss */
 button,
 input,
 select,
@@ -436,7 +436,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 470, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 470, ../scss/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -448,7 +448,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 482, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 482, ../scss/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -463,7 +463,7 @@ select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 499, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 499, ../scss/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -479,7 +479,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 512, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 512, ../scss/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -491,7 +491,7 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 524, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 524, ../scss/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -511,7 +511,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 539, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 539, ../scss/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -525,7 +525,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 550, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 550, ../scss/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -534,7 +534,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 559, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 559, ../scss/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -545,7 +545,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 569, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 569, ../scss/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -559,13 +559,13 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-/* line 582, /Users/cs/Sites/shifty/scss/_normalize.scss */
+/* line 582, ../scss/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 135, /Users/cs/Sites/shifty/scss/shifty.scss */
+/* line 147, ../scss/shifty.scss */
 .container {
   margin: 0 auto;
   padding: 0 18px;
@@ -574,443 +574,495 @@ table {
   box-sizing: content-box;
 }
 
-/* line 143, /Users/cs/Sites/shifty/scss/shifty.scss */
+/* line 155, ../scss/shifty.scss */
 .grid {
   margin-left: -30px;
 }
-/* line 146, /Users/cs/Sites/shifty/scss/shifty.scss */
+/* line 158, ../scss/shifty.scss */
 .grid:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 153, /Users/cs/Sites/shifty/scss/shifty.scss */
-[class*="span"] {
+/* line 166, ../scss/shifty.scss */
+[class*="span"],
+[class*="group"] > * {
   margin-left: 30px;
 }
 
-/* line 159, /Users/cs/Sites/shifty/scss/shifty.scss */
-.break {
-  clear: left;
-}
-
-/* line 165, /Users/cs/Sites/shifty/scss/shifty.scss */
+/* line 178, ../scss/shifty.scss */
 .at4-show, .at6-show, .at8-show, .at12-show {
   display: none;
 }
 
 @media only screen and (min-width: 406px) {
-  /* line 58, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 66, ../scss/shifty.scss */
   .container {
     width: 370px;
   }
 
-  /* line 64, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .span1, .at4-span1, .span2, .at4-span2, .span3, .at4-span3 {
-    float: left;
+  /* line 72, ../scss/shifty.scss */
+  .span1,
+  .group1 > *,
+  .at4-span1,
+  .at4-span1-group > *, .span2,
+  .group2 > *,
+  .at4-span2,
+  .at4-span2-group > *, .span3,
+  .group3 > *,
+  .at4-span3,
+  .at4-span3-group > * {
+    display: inline-block;
   }
 
-  /* line 82, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .span1, .at4-span1 {
+  /* line 94, ../scss/shifty.scss */
+  .span1,
+  .group1 > *,
+  .at4-span1,
+  .at4-span1-group > * {
     width: 70px;
   }
 
-  /* line 82, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .span2, .at4-span2 {
+  /* line 94, ../scss/shifty.scss */
+  .span2,
+  .group2 > *,
+  .at4-span2,
+  .at4-span2-group > * {
     width: 170px;
   }
 
-  /* line 82, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .span3, .at4-span3 {
+  /* line 94, ../scss/shifty.scss */
+  .span3,
+  .group3 > *,
+  .at4-span3,
+  .at4-span3-group > * {
     width: 270px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at4-offset0 {
     margin-left: 30px;
   }
 
-  /* line 97, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 109, ../scss/shifty.scss */
   .offset1, .at4-offset1 {
     margin-left: 130px;
   }
 
-  /* line 97, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 109, ../scss/shifty.scss */
   .offset2, .at4-offset2 {
     margin-left: 230px;
   }
 
-  /* line 97, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 109, ../scss/shifty.scss */
   .offset3, .at4-offset3 {
     margin-left: 330px;
   }
 
-  /* line 105, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at4-break {
-    clear: left;
-  }
-
-  /* line 110, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at4-unbreak {
-    clear: none;
-  }
-
-  /* line 116, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 128, ../scss/shifty.scss */
   .at4-show {
     display: block;
   }
 
-  /* line 121, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 133, ../scss/shifty.scss */
   .at4-hide {
     display: none;
   }
 }
 @media only screen and (min-width: 606px) {
-  /* line 58, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 66, ../scss/shifty.scss */
   .container {
     width: 570px;
   }
 
-  /* line 64, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at6-span1, .at6-span2, .at6-span3, .span4, .at6-span4, .span5, .at6-span5 {
-    float: left;
+  /* line 72, ../scss/shifty.scss */
+  .at6-span1,
+  .at6-group1 > *, .at6-span2,
+  .at6-group2 > *, .at6-span3,
+  .at6-group3 > *, .span4,
+  .group4 > *,
+  .at6-span4,
+  .at6-span4-group > *, .span5,
+  .group5 > *,
+  .at6-span5,
+  .at6-span5-group > * {
+    display: inline-block;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at6-span1 {
+  /* line 83, ../scss/shifty.scss */
+  .at6-span1,
+  .at6-group1 > * {
     width: 70px;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at6-span2 {
+  /* line 83, ../scss/shifty.scss */
+  .at6-span2,
+  .at6-group2 > * {
     width: 170px;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at6-span3 {
+  /* line 83, ../scss/shifty.scss */
+  .at6-span3,
+  .at6-group3 > * {
     width: 270px;
   }
 
-  /* line 82, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .span4, .at6-span4 {
+  /* line 94, ../scss/shifty.scss */
+  .span4,
+  .group4 > *,
+  .at6-span4,
+  .at6-span4-group > * {
     width: 370px;
   }
 
-  /* line 82, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .span5, .at6-span5 {
+  /* line 94, ../scss/shifty.scss */
+  .span5,
+  .group5 > *,
+  .at6-span5,
+  .at6-span5-group > * {
     width: 470px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at6-offset0 {
     margin-left: 30px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at6-offset1 {
     margin-left: 130px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at6-offset2 {
     margin-left: 230px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at6-offset3 {
     margin-left: 330px;
   }
 
-  /* line 97, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 109, ../scss/shifty.scss */
   .offset4, .at6-offset4 {
     margin-left: 430px;
   }
 
-  /* line 97, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 109, ../scss/shifty.scss */
   .offset5, .at6-offset5 {
     margin-left: 530px;
   }
 
-  /* line 105, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at6-break {
-    clear: left;
-  }
-
-  /* line 110, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at6-unbreak {
-    clear: none;
-  }
-
-  /* line 116, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 128, ../scss/shifty.scss */
   .at6-show {
     display: block;
   }
 
-  /* line 121, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 133, ../scss/shifty.scss */
   .at6-hide {
     display: none;
   }
 }
 @media only screen and (min-width: 806px) {
-  /* line 58, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 66, ../scss/shifty.scss */
   .container {
     width: 770px;
   }
 
-  /* line 64, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at8-span1, .at8-span2, .at8-span3, .at8-span4, .at8-span5, .span6, .at8-span6, .span7, .at8-span7 {
-    float: left;
+  /* line 72, ../scss/shifty.scss */
+  .at8-span1,
+  .at8-group1 > *, .at8-span2,
+  .at8-group2 > *, .at8-span3,
+  .at8-group3 > *, .at8-span4,
+  .at8-group4 > *, .at8-span5,
+  .at8-group5 > *, .span6,
+  .group6 > *,
+  .at8-span6,
+  .at8-span6-group > *, .span7,
+  .group7 > *,
+  .at8-span7,
+  .at8-span7-group > * {
+    display: inline-block;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at8-span1 {
+  /* line 83, ../scss/shifty.scss */
+  .at8-span1,
+  .at8-group1 > * {
     width: 70px;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at8-span2 {
+  /* line 83, ../scss/shifty.scss */
+  .at8-span2,
+  .at8-group2 > * {
     width: 170px;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at8-span3 {
+  /* line 83, ../scss/shifty.scss */
+  .at8-span3,
+  .at8-group3 > * {
     width: 270px;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at8-span4 {
+  /* line 83, ../scss/shifty.scss */
+  .at8-span4,
+  .at8-group4 > * {
     width: 370px;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at8-span5 {
+  /* line 83, ../scss/shifty.scss */
+  .at8-span5,
+  .at8-group5 > * {
     width: 470px;
   }
 
-  /* line 82, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .span6, .at8-span6 {
+  /* line 94, ../scss/shifty.scss */
+  .span6,
+  .group6 > *,
+  .at8-span6,
+  .at8-span6-group > * {
     width: 570px;
   }
 
-  /* line 82, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .span7, .at8-span7 {
+  /* line 94, ../scss/shifty.scss */
+  .span7,
+  .group7 > *,
+  .at8-span7,
+  .at8-span7-group > * {
     width: 670px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at8-offset0 {
     margin-left: 30px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at8-offset1 {
     margin-left: 130px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at8-offset2 {
     margin-left: 230px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at8-offset3 {
     margin-left: 330px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at8-offset4 {
     margin-left: 430px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at8-offset5 {
     margin-left: 530px;
   }
 
-  /* line 97, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 109, ../scss/shifty.scss */
   .offset6, .at8-offset6 {
     margin-left: 630px;
   }
 
-  /* line 97, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 109, ../scss/shifty.scss */
   .offset7, .at8-offset7 {
     margin-left: 730px;
   }
 
-  /* line 105, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at8-break {
-    clear: left;
-  }
-
-  /* line 110, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at8-unbreak {
-    clear: none;
-  }
-
-  /* line 116, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 128, ../scss/shifty.scss */
   .at8-show {
     display: block;
   }
 
-  /* line 121, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 133, ../scss/shifty.scss */
   .at8-hide {
     display: none;
   }
 }
 @media only screen and (min-width: 1206px) {
-  /* line 58, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 66, ../scss/shifty.scss */
   .container {
     width: 1170px;
   }
 
-  /* line 64, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at12-span1, .at12-span2, .at12-span3, .at12-span4, .at12-span5, .at12-span6, .at12-span7, .span8, .at12-span8, .span9, .at12-span9, .span10, .at12-span10, .span11, .at12-span11 {
-    float: left;
+  /* line 72, ../scss/shifty.scss */
+  .at12-span1,
+  .at12-group1 > *, .at12-span2,
+  .at12-group2 > *, .at12-span3,
+  .at12-group3 > *, .at12-span4,
+  .at12-group4 > *, .at12-span5,
+  .at12-group5 > *, .at12-span6,
+  .at12-group6 > *, .at12-span7,
+  .at12-group7 > *, .span8,
+  .group8 > *,
+  .at12-span8,
+  .at12-span8-group > *, .span9,
+  .group9 > *,
+  .at12-span9,
+  .at12-span9-group > *, .span10,
+  .group10 > *,
+  .at12-span10,
+  .at12-span10-group > *, .span11,
+  .group11 > *,
+  .at12-span11,
+  .at12-span11-group > * {
+    display: inline-block;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at12-span1 {
+  /* line 83, ../scss/shifty.scss */
+  .at12-span1,
+  .at12-group1 > * {
     width: 70px;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at12-span2 {
+  /* line 83, ../scss/shifty.scss */
+  .at12-span2,
+  .at12-group2 > * {
     width: 170px;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at12-span3 {
+  /* line 83, ../scss/shifty.scss */
+  .at12-span3,
+  .at12-group3 > * {
     width: 270px;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at12-span4 {
+  /* line 83, ../scss/shifty.scss */
+  .at12-span4,
+  .at12-group4 > * {
     width: 370px;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at12-span5 {
+  /* line 83, ../scss/shifty.scss */
+  .at12-span5,
+  .at12-group5 > * {
     width: 470px;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at12-span6 {
+  /* line 83, ../scss/shifty.scss */
+  .at12-span6,
+  .at12-group6 > * {
     width: 570px;
   }
 
-  /* line 74, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at12-span7 {
+  /* line 83, ../scss/shifty.scss */
+  .at12-span7,
+  .at12-group7 > * {
     width: 670px;
   }
 
-  /* line 82, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .span8, .at12-span8 {
+  /* line 94, ../scss/shifty.scss */
+  .span8,
+  .group8 > *,
+  .at12-span8,
+  .at12-span8-group > * {
     width: 770px;
   }
 
-  /* line 82, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .span9, .at12-span9 {
+  /* line 94, ../scss/shifty.scss */
+  .span9,
+  .group9 > *,
+  .at12-span9,
+  .at12-span9-group > * {
     width: 870px;
   }
 
-  /* line 82, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .span10, .at12-span10 {
+  /* line 94, ../scss/shifty.scss */
+  .span10,
+  .group10 > *,
+  .at12-span10,
+  .at12-span10-group > * {
     width: 970px;
   }
 
-  /* line 82, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .span11, .at12-span11 {
+  /* line 94, ../scss/shifty.scss */
+  .span11,
+  .group11 > *,
+  .at12-span11,
+  .at12-span11-group > * {
     width: 1070px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at12-offset0 {
     margin-left: 30px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at12-offset1 {
     margin-left: 130px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at12-offset2 {
     margin-left: 230px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at12-offset3 {
     margin-left: 330px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at12-offset4 {
     margin-left: 430px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at12-offset5 {
     margin-left: 530px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at12-offset6 {
     margin-left: 630px;
   }
 
-  /* line 90, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 102, ../scss/shifty.scss */
   .at12-offset7 {
     margin-left: 730px;
   }
 
-  /* line 97, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 109, ../scss/shifty.scss */
   .offset8, .at12-offset8 {
     margin-left: 830px;
   }
 
-  /* line 97, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 109, ../scss/shifty.scss */
   .offset9, .at12-offset9 {
     margin-left: 930px;
   }
 
-  /* line 97, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 109, ../scss/shifty.scss */
   .offset10, .at12-offset10 {
     margin-left: 1030px;
   }
 
-  /* line 97, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 109, ../scss/shifty.scss */
   .offset11, .at12-offset11 {
     margin-left: 1130px;
   }
 
-  /* line 105, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at12-break {
-    clear: left;
-  }
-
-  /* line 110, /Users/cs/Sites/shifty/scss/shifty.scss */
-  .at12-unbreak {
-    clear: none;
-  }
-
-  /* line 116, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 128, ../scss/shifty.scss */
   .at12-show {
     display: block;
   }
 
-  /* line 121, /Users/cs/Sites/shifty/scss/shifty.scss */
+  /* line 133, ../scss/shifty.scss */
   .at12-hide {
     display: none;
   }
 }
-/* line 250, /Users/cs/Sites/shifty/scss/shifty.scss */
-.container.stripe {
-  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #aaaaaa), color-stop(100%, #aaaaaa)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #aaaaaa), color-stop(100%, #aaaaaa)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #aaaaaa), color-stop(100%, #aaaaaa)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #aaaaaa), color-stop(100%, #aaaaaa));
-  background: -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%);
-  background: -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%);
-  background: -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%);
-  background: linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%);
+/* line 263, ../scss/shifty.scss */
+.container {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #aaaaaa), color-stop(100%, #aaaaaa)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #aaaaaa), color-stop(100%, #aaaaaa)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #aaaaaa), color-stop(100%, #aaaaaa)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #e9e9e9), color-stop(100%, #e9e9e9)), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(1%, #aaaaaa), color-stop(100%, #aaaaaa));
+  background-image: -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%);
+  background-image: -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%);
+  background-image: -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%);
+  background-image: linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%);
   -webkit-background-size: 1px 1px;
   -moz-background-size: 1px 1px;
   -o-background-size: 1px 1px;
@@ -1019,8 +1071,14 @@ table {
   background-repeat: repeat-y;
 }
 
-/* line 10, ../scss/styles.scss */
-[class*="span"] {
+/* line 269, ../scss/shifty.scss */
+.container.no-stripes {
+  background-image: none;
+}
+
+/* line 11, ../scss/styles.scss */
+[class*="span"],
+[class*="group"] > * {
   background: red;
   margin-bottom: 10px;
 }

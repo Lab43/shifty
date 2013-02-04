@@ -6,7 +6,7 @@ A responsive grid system that works by adding/removing columns, rather than by m
 
 ## To Do:
 
-* For stripes, it would be nice to not have to include a .stripes class. In Kickcorps (and probably other real-world projects) it's easiest to turn stripes on and off by just changing the sass variable, and not have to also add/remove a class in the html. However, there should still be the option to require a class. This is useful if you want to toggle stripes off and on with javascript. Hmmm... maybe the stripes show unless you add a class to remove them. Is this the best of both worlds?
+* nothin'
 
 
 ## Bugs:
@@ -24,6 +24,7 @@ The documentation still needs to be written. Here are some notes to help me reme
 * wrapper classes (.conainer, .grid)
 * .span*
 * .offset*
+* .group*
 * how breakpoints work
   * $startFluid
   * .at*-span*, at*-span*
@@ -42,15 +43,11 @@ The documentation still needs to be written. Here are some notes to help me reme
   * nesting works, but it doesn't prevent you from having spans or offsets that are too wide.
   * breakpoints are only aware of the document width, not the width of spans.
 * advice for css
-  * avoid class names with 'span' in them
+  * avoid class conflicts
+    * span and group are most likely to cause problems
+    * change class shifty class names if need be
   * width must be preserved, so use box-sizing: border-box to prevent padding and borders from making spans wider
 
-
-## Features to add
-
-* span groups
-  * example: span3-group would make all of it's direct children span3.
-  * In other words, .span3-group > * is equivalent to .span3
 
 
 ## Acknowledgements:

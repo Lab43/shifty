@@ -22,8 +22,16 @@ $breakpoints: 4, 6, 8, 12 !default;
 // stripes
 $stripes: false !default;
 $stripeColor: #e9e9e9 !default;
-$stripeClass: "stripe" !default;
 $breakpointStripeColor: #aaa !default;
+
+// class names
+$container: 'container' !default;
+$grid: 'grid' !default;
+$span: 'span' !default;
+$group: 'group' !default;
+$offset: 'offset' !default;
+$break: 'break' !default;
+$unbreak: 'unbreak' !default;
 
 
 
@@ -55,7 +63,7 @@ $breakpointStripeColor: #aaa !default;
 @mixin _sizing($start, $end) {
 
   // grid size
-  .container {
+  .#{$container} {
     width: $columnWidth * ($end) + $gutterWidth * ($end - 1 );
   }
 
@@ -71,7 +79,8 @@ $breakpointStripeColor: #aaa !default;
 
   // .at* cell sizing
   @for $i from 1 through $start - 1 {
-    .at#{$end}-span#{$i} {
+    .at#{$end}-#{$span}#{$i},
+    .at#{$end}-#{$group}#{$i} > * {
       @include _cellWidth($i);
       @extend %layout-#{$start};
     }
@@ -79,7 +88,10 @@ $breakpointStripeColor: #aaa !default;
 
   // .at* cell and regular cell sizing
   @for $i from $start through $end - 1 {
-    .span#{$i}, .at#{$end}-span#{$i} {
+    .#{$span}#{$i},
+    .#{$group}#{$i} > *,
+    .at#{$end}-#{$span}#{$i},
+    .at#{$end}-#{$span}#{$i}-#{$group} > * {
       @include _cellWidth($i);
       @extend %layout-#{$start};
     }
@@ -87,14 +99,14 @@ $breakpointStripeColor: #aaa !default;
 
   // .at* offset sizing
   @for $i from 0 through $start - 1 {
-    .at#{$end}-offset#{$i} {
+    .at#{$end}-#{$offset}#{$i} {
       @include _offsetMargin($i);
     }
   }
 
   // .at* and regular offset sizing
   @for $i from $start through $end - 1 {
-    .offset#{$i}, .at#{$end}-offset#{$i} {
+    .#{$offset}#{$i}, .at#{$end}-#{$offset}#{$i} {
       @include _offsetMargin($i);
     }
   }
@@ -102,12 +114,12 @@ $breakpointStripeColor: #aaa !default;
   // only output .at*-break and .at*-unbreak if layout mode is float
   @if $layoutMode == 'float' {
     // break
-    .at#{$end}-break {
+    .at#{$end}-#{$break} {
       clear: left;
     }
 
     // unbreak
-    .at#{$end}-unbreak {
+    .at#{$end}-#{$unbreak} {
       clear: none;
     }
   }
@@ -132,7 +144,7 @@ $breakpointStripeColor: #aaa !default;
 
 $firstBreakpoint: nth($breakpoints, 1);
 
-.container {
+.#{$container} {
   margin: 0 auto;
   padding: 0 $outsideGutterWidth;
   -webkit-box-sizing: content-box;
@@ -140,7 +152,7 @@ $firstBreakpoint: nth($breakpoints, 1);
           box-sizing: content-box;
 }
 
-.grid {
+.#{$grid} {
   margin-left: -$gutterWidth;
   // clearfix
   &:after {
@@ -150,13 +162,14 @@ $firstBreakpoint: nth($breakpoints, 1);
   }
 }
 
-[class*="span"] {
+[class*="#{$span}"],
+[class*="#{$group}"] > * {
   margin-left: $gutterWidth;
 }
 
 // only output .break if layout mode is float
 @if $layoutMode == 'float' {
-  .break {
+  .#{$break} {
     clear: left;
   }
 }
@@ -247,10 +260,13 @@ $previousBreakpoint: $firstBreakpoint;
   }
 
   // output stripes
-  .container.#{$stripeClass} {
-    @include background($gradients);
+  .#{$container} {
+    @include background-image($gradients);
     @include background-size(1px 1px);
     background-position: $positions;
     background-repeat: repeat-y;
+  }
+  .#{$container}.no-stripes {
+    background-image: none;
   }
 }
