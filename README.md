@@ -17,7 +17,6 @@ A responsive grid system that works by adding/removing columns, rather than by m
 
 ## Documentation Notes:
 
-<<<<<<< HEAD
 The documentation still needs to be written. Here are some notes to help me remember what needs to be covered.
 
 * using with sass vs using precompiled examples
@@ -52,11 +51,6 @@ The documentation still needs to be written. Here are some notes to help me reme
 * span groups
   * example: span3-group would make all of it's direct children span3.
   * In other words, .span3-group > * is equivalent to .span3
-=======
-The documentation still needs to be written. Here are some notes to help me remember what everything does.
-
-* Avoiding gaps between inline-block element: [Fighting the Space Between Inline Block Elements](http://css-tricks.com/fighting-the-space-between-inline-block-elements/)
->>>>>>> 170d2c9fb2e5dafa232c4f669926a42c127ce194
 
 
 ## Acknowledgements:
