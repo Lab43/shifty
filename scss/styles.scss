@@ -1,11 +1,9 @@
-@import "compass";
-
-@import "_normalize";
+//@import "_normalize";
 
 $stripes: true;
 $layoutMode: 'inline-block';
 
-@import "shifty";
+@import "../../_shifty";
 
 [class*="span"],
 [class*="group"] > * {
