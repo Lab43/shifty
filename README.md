@@ -6,7 +6,11 @@ A responsive grid system that works by adding/removing columns, rather than by m
 
 ## To Do:
 
-* nothin'
+* more attractive striping
+* documentation
+* remove compass dependency (I'm only using it for background-image() and background-size(), so it should be easy to get rid of).
+* consider producing a less version. This will be more versatile and will make in-browser compiling possible.
+  * or, at least document the sass features being used that don't have a simple less equivalent
 
 
 ## Bugs:
@@ -53,4 +57,3 @@ The documentation still needs to be written. Here are some notes to help me reme
 ## Acknowledgements:
 
 * Many ideas borrowed from [Twitter Bootstrap](http://twitter.github.com/bootstrap/), including class names and grid dimensions.
-* [Sass/Compass version of Normalize.css](https://github.com/JohnAlbin/normalize.css-with-sass-or-compass) by [John Albin Wilkins](https://github.com/JohnAlbin) is used in the documentation website.
