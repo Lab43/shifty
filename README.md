@@ -8,7 +8,6 @@ A responsive grid system that works by adding/removing columns, rather than by m
 
 * more attractive striping
 * documentation
-* remove compass dependency (I'm only using it for background-image() and background-size(), so it should be easy to get rid of).
 * consider producing a less version. This will be more versatile and will make in-browser compiling possible.
   * or, at least document the sass features being used that don't have a simple less equivalent
 
