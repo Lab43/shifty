@@ -1,0 +1,35 @@
+.span2 {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: text-bottom;
+}
+
+[class*="span"] {
+  position: relative;
+  &:before,
+  &:after {
+    content: '';
+    display: none;
+    position: absolute;
+  }
+  &:hover {
+    &:before,
+    &:after {
+      display: block;
+    }
+  }
+  &:before {
+    height: 100%;
+    width: 100%;
+    border: 1px dotted #666;
+  }
+  &:after {
+    content: attr(class);
+    right: 0;
+    top: 0;
+    background: #999;
+  }
+}

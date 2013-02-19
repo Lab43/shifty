@@ -1,0 +1,14 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "The Wintersmith's blog",
+    "owner": "The Wintersmith",
+    "description": "-32°C ain't no problems!",
+    "index_articles": 3
+  },
+  "plugins": [
+    "./node_modules/wintersmith-sass",
+    "./node_modules/wintersmith-jade",
+    "./node_modules/wintersmith-ugly-jade"
+  ]
+}

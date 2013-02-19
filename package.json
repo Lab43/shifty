@@ -1,0 +1,10 @@
+{
+    "name": "test",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "wintersmith-sass": "*",
+      "wintersmith-jade": "git://github.com/eusonic/wintersmith-jade.git",
+      "wintersmith-ugly-jade": "git://github.com/eusonic/wintersmith-ugly-jade.git"
+    }
+}

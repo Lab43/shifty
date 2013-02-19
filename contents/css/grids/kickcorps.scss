@@ -1,0 +1,9 @@
+$columnWidth: 80px;
+$gutterWidth: 40px;
+$outsideGutterWidth: 40px;
+$breakpoints: 8, 10, 12;
+$layoutMode: 'inline-block';
+$startFluid: false;
+$stripes: true;
+
+@import "../../../_shifty.scss";

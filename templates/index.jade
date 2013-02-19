@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  each example in contents.examples
+    h2
+      a(href=example.url)= example.title
