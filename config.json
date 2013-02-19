@@ -1,4 +1,6 @@
 {
+  "contents": "./docs/contents",
+  "templates": "./docs/templates",
   "locals": {
     "url": "http://localhost:8080",
     "name": "The Wintersmith's blog",
