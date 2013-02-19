@@ -1,0 +1,25 @@
+[class*="span"],
+[class*="group"] > * {
+  margin-bottom: 20px; }
+
+img {
+  max-width: 100%;
+  vertical-align: text-bottom; }
+
+[class*="span"] {
+  position: relative; }
+  [class*="span"]:before, [class*="span"]:after {
+    content: '';
+    display: none;
+    position: absolute; }
+  [class*="span"]:hover:before, [class*="span"]:hover:after {
+    display: block; }
+  [class*="span"]:before {
+    height: 100%;
+    width: 100%;
+    border: 1px dotted #666666; }
+  [class*="span"]:after {
+    content: attr(class);
+    right: 0;
+    top: 0;
+    background: #999; }

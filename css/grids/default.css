@@ -19,7 +19,7 @@
 .break {
   clear: left; }
 
-.at4-show, .at6-show, .at8-show, .at12-show {
+.at4-show {
   display: none; }
 
 @media only screen and (min-width: 406px) {
@@ -79,6 +79,9 @@
 
   .at4-hide {
     display: none; } }
+.at6-show {
+  display: none; }
+
 @media only screen and (min-width: 606px) {
   .container {
     width: 570px; }
@@ -148,6 +151,9 @@
 
   .at6-hide {
     display: none; } }
+.at8-show {
+  display: none; }
+
 @media only screen and (min-width: 806px) {
   .container {
     width: 770px; }
@@ -233,6 +239,9 @@
 
   .at8-hide {
     display: none; } }
+.at12-show {
+  display: none; }
+
 @media only screen and (min-width: 1206px) {
   .container {
     width: 1170px; }
@@ -358,3 +367,17 @@
 
   .at12-hide {
     display: none; } }
+.container {
+  background-image: -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -webkit-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%);
+  background-image: -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -moz-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%);
+  background-image: -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), -o-linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%);
+  background-image: linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #e9e9e9 1%, #e9e9e9 100%), linear-gradient(left, #aaaaaa 1%, #aaaaaa 100%);
+  -webkit-background-size: 1px 1px;
+  -moz-background-size: 1px 1px;
+  -o-background-size: 1px 1px;
+  background-size: 1px 1px;
+  background-position: 17px 0, 88px 0, 117px 0, 188px 0, 217px 0, 288px 0, 317px 0, 388px 0, 417px 0, 488px 0, 517px 0, 588px 0, 617px 0, 688px 0, 717px 0, 788px 0, 817px 0, 888px 0, 917px 0, 988px 0, 1017px 0, 1088px 0, 1117px 0, 1188px 0;
+  background-repeat: repeat-y; }
+
+.container.no-stripes {
+  background-image: none; }
