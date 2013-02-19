@@ -67,7 +67,7 @@ $unbreak: 'unbreak' !default;
   %layout-#{$start} {
     @if $layoutMode == 'float' {
       float: left;
-    } @else if $layoutMode == 'inline-block' {
+    } @else {
       display: inline-block;
     }
   }
@@ -164,6 +164,9 @@ $firstBreakpoint: nth($breakpoints, 1);
 [class*="#{$span}"],
 [class*="#{$group}"] > * {
   margin-left: $gutterWidth;
+  @if $layoutMode == 'inline-block' {
+    vertical-align: top;
+  }
 }
 
 // only output .break if layout mode is float
