@@ -8,7 +8,7 @@ $gutterWidth: 30px !default;
 $outsideGutterWidth: 18px !default;
 
 // layout mode: float or inline-block
-$layoutMode: 'float' !default;
+$layoutMode: float !default;
 
 // breakpoints
 $startFluid: true !default;
@@ -20,13 +20,13 @@ $stripeColor: #e9e9e9 !default;
 $breakpointStripeColor: #aaa !default;
 
 // class names
-$container: 'container' !default;
-$grid: 'grid' !default;
-$span: 'span' !default;
-$group: 'group' !default;
-$offset: 'offset' !default;
-$break: 'break' !default;
-$unbreak: 'unbreak' !default;
+$container: container !default;
+$grid: grid !default;
+$span: span !default;
+$group: group !default;
+$offset: offset !default;
+$break: break !default;
+$unbreak: unbreak !default;
 
 
 
@@ -65,7 +65,7 @@ $unbreak: 'unbreak' !default;
   // use float:left or display:inline-block depending on layout mode
   // we add $start to the end of the placeholder selector to prevent selectors from different breakpoints (i.e. media queries) from getting grouped together
   %layout-#{$start} {
-    @if $layoutMode == 'float' {
+    @if $layoutMode == float {
       float: left;
     } @else {
       display: inline-block;
@@ -107,7 +107,7 @@ $unbreak: 'unbreak' !default;
   }
 
   // only output .at*-break and .at*-unbreak if layout mode is float
-  @if $layoutMode == 'float' {
+  @if $layoutMode == float {
     // break
     .at#{$end}-#{$break} {
       clear: left;
@@ -121,7 +121,7 @@ $unbreak: 'unbreak' !default;
 
   // show
   .at#{$end}-show {
-    @if $layoutMode == 'float' {
+    @if $layoutMode == float {
       display: block; 
     } @else {
       display: inline-block;
@@ -164,13 +164,13 @@ $firstBreakpoint: nth($breakpoints, 1);
 [class*="#{$span}"],
 [class*="#{$group}"] > * {
   margin-left: $gutterWidth;
-  @if $layoutMode == 'inline-block' {
+  @if $layoutMode == inline-block {
     vertical-align: top;
   }
 }
 
 // only output .break if layout mode is float
-@if $layoutMode == 'float' {
+@if $layoutMode == float {
   .#{$break} {
     clear: left;
   }
