@@ -6,7 +6,8 @@ A responsive grid system that works by adding/removing columns, rather than by m
 
 ## To Do:
 
-* more attractive striping
+* Consider replacing gradient striping with data-uri background image. There may be a problem producing multiple stripes without duplicating the data-uri. The advantage is the the lines could be dotted (this may be possible with gradients too)
+* Provide light and dark versions of striping. Stripes should be white or black and semi-transparent, so they work over any color.
 * documentation
 * consider producing a less version. This will be more versatile and will make in-browser compiling possible.
   * or, at least document the sass features being used that don't have a simple less equivalent
